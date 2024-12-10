@@ -87,7 +87,7 @@
 		07539A5129BCECDC00BF02BB /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		07539A5429BCEE0600BF02BB /* AuthButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButtonView.swift; sourceTree = "<group>"; };
 		07539A5629BCF45E00BF02BB /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
-		D328272B29B6149000B1677A /* ParkHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D328272B29B6149000B1677A /* ParkPaws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkPaws.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D328272E29B6149000B1677A /* ParkHereApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkHereApp.swift; sourceTree = "<group>"; };
 		D328273229B6149200B1677A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D328273529B6149200B1677A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -254,7 +254,7 @@
 		D328272C29B6149000B1677A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D328272B29B6149000B1677A /* ParkHere.app */,
+				D328272B29B6149000B1677A /* ParkPaws.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -599,9 +599,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D328272A29B6149000B1677A /* ParkHere */ = {
+		D328272A29B6149000B1677A /* ParkPaws */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D328273929B6149200B1677A /* Build configuration list for PBXNativeTarget "ParkHere" */;
+			buildConfigurationList = D328273929B6149200B1677A /* Build configuration list for PBXNativeTarget "ParkPaws" */;
 			buildPhases = (
 				D328272729B6149000B1677A /* Sources */,
 				D328272829B6149000B1677A /* Frameworks */,
@@ -611,7 +611,7 @@
 			);
 			dependencies = (
 			);
-			name = ParkHere;
+			name = ParkPaws;
 			packageProductDependencies = (
 				D328274829BB5C1A00B1677A /* FirebaseAnalytics */,
 				D328274A29BB5C1A00B1677A /* FirebaseAuth */,
@@ -625,7 +625,7 @@
 				5742D0D92D08EDCA007B6EEB /* ParseSwift */,
 			);
 			productName = ParkHere;
-			productReference = D328272B29B6149000B1677A /* ParkHere.app */;
+			productReference = D328272B29B6149000B1677A /* ParkPaws.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -643,7 +643,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D328272629B6149000B1677A /* Build configuration list for PBXProject "ParkHere" */;
+			buildConfigurationList = D328272629B6149000B1677A /* Build configuration list for PBXProject "ParkPaws" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -661,7 +661,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D328272A29B6149000B1677A /* ParkHere */,
+				D328272A29B6149000B1677A /* ParkPaws */,
 			);
 		};
 /* End PBXProject section */
@@ -939,7 +939,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D328272629B6149000B1677A /* Build configuration list for PBXProject "ParkHere" */ = {
+		D328272629B6149000B1677A /* Build configuration list for PBXProject "ParkPaws" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D328273729B6149200B1677A /* Debug */,
@@ -948,7 +948,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D328273929B6149200B1677A /* Build configuration list for PBXNativeTarget "ParkHere" */ = {
+		D328273929B6149200B1677A /* Build configuration list for PBXNativeTarget "ParkPaws" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D328273A29B6149200B1677A /* Debug */,
